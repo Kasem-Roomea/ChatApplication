@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Chat Application</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="custom-sing text-center">    
+        <header>
+            
+            <div class="address fw-bolder fs-1 pb-4">
+                RealTime Chat App
+            </div>
+            
+        
+            
+            <div class="alert alert-danger fw-bold" style="display: none" id="alert_message">
+                   
+            </div>
+            
+        </header> 
+        
+        <form id="myform">
+                <div class="container">
+                    <div class="row">
+                        
+                        <div class="col-sm-6 form-group mb-4">
+                            
+                            <lable class="fw-bold fs-4 text-center">First Name</lable>
+                            <input type="text" class="form-control" name="firstname">
+                            
+                        </div>
+                        
+                        <div class="col-sm-6 form-group mb-4">
+                            
+                             <lable class="fw-bold fs-4 text-center ">Last Name</lable>
+                            <input type="text" class="form-control" name="lastname">
+                            
+                        </div>
+                        
+                        
+                        <div class="col-sm-12 form-group mb-4">
+                            
+                             <lable class="fw-bold fs-4 text-center">Email</lable>
+                            <input type="text" class="form-control" name="email">
+                            
+                        </div>
+                        
+                        <div class="col-sm-12 form-group mb-4">
+                            
+                            <lable class="fw-bold fs-4 text-center" >Password</lable><br>
+                            <input type="password" class="form-control password" id = "password" name="password"><i class="fas fa-eye float-end eyes " id = "eyes"></i>
+                            
+                            
+                        </div> 
+                        
+                        <div class="col-sm-12 form-group mb-5">
+                            
+                            
+                            <input type="file" class="custom-file" id="selectimage" lang="es" name="file">  
+                            <lable class="fw-bold fs-4 text-center btn lable-file " for="selectimage" >Select Image</lable>
+                            
+                        </div>
+                        
+                        <div class="col-sm-12 form-group mb-5">
+                            
+                            <input type="submit" value="Coninue To Chat" class="form-control btn btn-dark fs-5 fw-bold btn-sing" name = "singup" id="singup">  
+                            
+                        </div>
+                        
+                        <div class="col-sm-12 form-group mb-4">
+                            
+                            <span class="fs-4 fw-bold ">Already Sing up ? <a class="text-dark text-decoration-none link-log" href="index.html">Login Now</a></span>
+                            
+                        </div>
+                        
+                    </div>
+                </div>
+        </form>
+        
+        
+    </div>
+    
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/customJs/singup.js"></script>
+</body>
+</html>
